@@ -19,13 +19,15 @@
                             <router-link to="/page1/123">page1</router-link>
                         </span>
                     </el-menu-item>
-                    <el-menu-item index="3" disabled>
+                    <!-- <el-menu-item index="3" disabled>
                         <i class="el-icon-document"></i>
                         <span slot="title"><router-link to="/wqeqeq">找不到的页面</router-link></span>
-                    </el-menu-item>
+                    </el-menu-item> -->
                     <el-menu-item index="4">
-                        <i class="el-icon-setting"></i>
-                        <span slot="title">导航四</span>
+                        <i class="el-icon-menu"></i>
+                        <span slot="title">
+                            <router-link to="/forms">form</router-link>
+                        </span>
                     </el-menu-item>
                 </el-menu>
             </el-aside>

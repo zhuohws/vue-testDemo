@@ -1,6 +1,7 @@
 import HelloWorld from '../components/HelloWorld.vue';
 import main from '../components/main.vue';
 import page1 from '../components/page1.vue';
+import forms from '../pages/forms/index.vue';
 import NotFound from '../components/NotFound.vue';
 var routes = [
     {
@@ -23,6 +24,14 @@ var routes = [
                 component: page1,
                 meta: {
                     title: '页面1'
+                }
+            },
+            {
+                name: 'forms',
+                path: '/forms',
+                component: forms,
+                meta: {
+                    title: '表单'
                 }
             }
         ]
